@@ -1,7 +1,7 @@
 {
-  "name": "paquet",
+  "name": "paquet-bundler",
   "version": "1.0.0",
-  "description": "A simple, fast, and powerful module bundler.",
+  "description": "A simple module bundler written in JavaScript",
   "main": "index.js",
   "bin": {
     "paquet": "./bin/index.js"

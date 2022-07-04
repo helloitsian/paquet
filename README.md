@@ -2,6 +2,11 @@
 
 A simple module bundler written in JavaScript. Handles `import` and `require`, bundles your `node_modules` as well!
 
+## Install
+```
+npm install paquet-bundler
+```
+
 ## Getting Started
 Paquet is very simple to use. Simply specify your entry file and output file and let Paquet do the rest!
 ```
