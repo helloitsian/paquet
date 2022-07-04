@@ -1,4 +1,3 @@
-const { axios } = require('axios');
+const useHotKeys = require('react-hotkeys-hook');
 
-axios.get('http://www.google.com')
-  .then((res) => console.log(res));
+console.log(useHotKeys);
