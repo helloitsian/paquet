@@ -19,6 +19,7 @@ paquet --entry path/to/entry.js --out path/of/bundle.js --env { VAR1: "VAR1", VA
 module.exports = {
   entry: 'path/to/entry.js',
   out: 'path/to/dist/bundle.js',
+  env: { VAR1: "VAR1", },
   mutators: [
     // { before: (code) => code, after: (code) => code }
   ],
