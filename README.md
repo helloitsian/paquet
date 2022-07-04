@@ -28,6 +28,8 @@ module.exports = {
   ]
 }
 ```
+**Run**
+paquet --config ./paquet.config.js
 
 ## Mutators
 Mutators are functions that change code at the module level, you can have a mutator for before ES6->ES5 code transpilation or after.
