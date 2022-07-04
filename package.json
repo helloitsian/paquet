@@ -1,7 +1,11 @@
 {
   "name": "paquet-bundler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple module bundler written in JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helloitsian/paquet"
+  },
   "main": "index.js",
   "bin": {
     "paquet": "./bin/index.js"
