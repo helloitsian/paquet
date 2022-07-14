@@ -31,6 +31,10 @@ const { pack } = require("../lib");
     })
     .help().argv;
 
+  const spinner = ora(chalk.bold("Bundling..."));
+  spinner.color = "blue";
+  spinner.start();
+
   const configPath = path.resolve(argv.config);
   const configExists = fs.existsSync(configPath);
 
@@ -57,10 +61,6 @@ const { pack } = require("../lib");
     );
     plugins = config.plugins || [];
   }
-
-  const spinner = ora(chalk.bold("Bundling..."));
-  spinner.color = "blue";
-  spinner.start();
 
   const bundled = pack({
     entryPath,
